@@ -1,0 +1,405 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #F2F9ff;;
+}
+
+header {
+
+    background-image: url('../images/header.png');
+    text-align: center;
+    padding: 35px 0 175px;
+    background-size: cover;
+    min-height: 768px;
+}
+
+.logo{
+   display: block;
+   margin: 0 auto;
+   width: 260px;
+   margin-bottom: 225px;
+
+   
+
+}
+
+h1{
+  margin-bottom: 75px;
+  font-size: 60px;
+  color: #f0f0f0;
+  line-height: 70px;
+
+}
+
+h3{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 30px;
+color: #0F4C92;
+}
+
+.header-paragraph{
+    font-size: 20px;
+    color: #f0f0f0;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
+.btn {
+    background: #ff9728;
+    border: none;
+    padding: 16px 40px;
+    gap: 10px;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    line-height: 25px;
+    font-size: 21px;
+line-height: 25px;
+}
+
+.container__info {
+    background-color: #DEF0FF;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    
+}
+
+.info-title {
+    line-height: 47px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0F4C92;
+    text-align: center;
+    
+}
+
+.info-text {
+    color: #0F4C92;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    width: 745px;
+    height: 88px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+
+.container__second {
+    background-color: #DEF0FF;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 140px;
+
+    
+}
+
+.info-text-second {
+padding-top: 40px;
+width: 749px;
+height: 147px;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #0F4C92;
+margin: 0 auto;
+}
+
+.advantages {
+    margin: 85px 0 ;
+    background-color: #F2F9ff;
+}
+
+.advantages-blocks {
+    width: 1196px;
+    margin: 0 auto;
+ 
+
+}
+
+.first-blog {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.first-blog img {
+    width: 585px;
+    height: 580px;
+    border-radius: 12px;
+}
+
+
+.blog-desc{
+    padding-left: 80px;
+    padding-top: 60px;
+}
+
+
+.blog-desc-sec{
+    padding-top: 60px;
+}
+
+.blog-desc-sec p {
+
+    color: #1b1b1b;
+    margin-top: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-right: 140px;
+}
+
+
+.date{
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 20px;
+}
+.date span {
+font-weight: bold;
+}
+
+.blog-desc p {
+
+    color: #1b1b1b;
+    margin-top: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.btn-blog {
+    font-size: 21px;
+    line-height: 25px;
+    color: #fff;
+    border: none;
+    padding: 15px 70px;
+    border-radius: 45px;
+    background: #0D599C;
+    margin-top: 40px;
+}
+
+
+/* FORM START */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+.callback-form {
+    background: linear-gradient(327.75deg, #0080BF 9.35%, #00496C 117.99%);
+    border-radius: 50px;
+    padding: 100px 80px 50px;
+    
+}
+
+.callback-form h2 {
+    color: #f9f9f9;
+    text-align: center;
+    margin-bottom: 75px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.callback-form input {
+    border: 1px solid #F7f6f6;
+    width: 360 px;
+    background-color: transparent;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    line-height: 21px;
+    box-sizing: border-box;
+} 
+
+.callback-form input::placeholder {
+    font-size: 18px;
+    color: #B2E3FF;
+
+}
+
+.callback-form input::first-child {
+    margin-right: 15px;
+}
+
+
+.callback-form .callback-btn{
+    background: #ff9728;
+    border: none;
+    padding: 16px 40px;
+    gap: 10px;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    line-height: 25px;
+    width: 190px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+
+/* FORM END */
+
+/* BOOKING BLOCK */
+
+.back-book {
+    background: #B5E4FF;
+    height: 545px;
+    padding-top: 97px;
+
+}
+
+.booking {
+    display: block; 
+     margin: 0px auto;
+    margin-bottom: 80px;
+    border-radius: 19px;
+    background: #2B477C;
+    width: 785px;
+    
+
+}
+
+.booking-block {
+    padding-bottom: 30px;
+
+}
+
+.booking-disc {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #F4F4F4;
+
+text-align: center;
+margin: 40px auto;
+
+}
+
+.booking-block-btn {
+    background: #ff9728;
+    border: none;
+    padding: 16px 40px;
+    gap: 10px;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    line-height: 25px;
+    display: block;
+    font-size: 21px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+
+.booking-block h2 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+margin: 0 auto;
+padding-top: 60px;
+color: #F4F4F4;
+}
+
+
+/* FOOTER */
+
+.logo-footer {
+width: 333px;
+height: 105px;
+display: block;
+margin: 0 auto;
+}
+
+.foot {
+    height: 447px;
+    background: #0B83BE;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+}
+
+.foot-content {
+    padding-top: 50px;
+
+}
+
+.address {
+
+padding-top: 90px;
+margin-bottom: 115px;
+text-decoration: none;
+}
+
+.add {
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+}
+
+/* 
+SECTION MAP  */
+
+
+.map-section h2 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #0F4C92;
+text-align: center;
+margin: 75px 0;
+}
+
+.map {
+    width: 100%;
+    height: 360px;
+    border: none;
+}
